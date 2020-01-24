@@ -1,0 +1,37 @@
+/*
+	Author: Carlo Gonzalez
+	Class: CS 366
+	Secion: 1
+	Description: CSS Page for Rancid Tomatoes.
+		With centered contect box and HTML/CSS checkers. 
+
+-*/
+body {
+	font-family:'Snell Roundhand', cursive ;
+	font-size: 14pt;
+	text-align: center;
+}
+
+#puzzlearea{
+	
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	margin-top: 0; 
+	position: relative;
+}
+
+#puzzlearea div{
+	float: left;
+	border: 5px solid black;
+	width: 90px;
+	height: 90px;
+	margin: auto;
+	font-size: 40px;
+	background-image: url("background.jpg");
+}
+
+ .highlighted {
+	border-color: red;
+	color: red;
+}
